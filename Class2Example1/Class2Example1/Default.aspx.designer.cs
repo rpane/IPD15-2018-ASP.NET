@@ -22,6 +22,15 @@ namespace Class2Example1 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// UserInfoBoxControl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Class2Example1.UserInfoBoxControl UserInfoBoxControl;
+        
+        /// <summary>
         /// HelloWorldLabel control.
         /// </summary>
         /// <remarks>

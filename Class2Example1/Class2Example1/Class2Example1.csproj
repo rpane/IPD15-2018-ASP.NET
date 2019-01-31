@@ -68,6 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="TextBoxClient.aspx" />
+    <Content Include="TextButtonControl.ascx" />
+    <Content Include="UserInfoBox.aspx" />
+    <Content Include="UserInfoBoxControl.ascx" />
+    <Content Include="UserInfoBoxDynamic.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +84,41 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextBoxClient.aspx.cs">
+      <DependentUpon>TextBoxClient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TextBoxClient.aspx.designer.cs">
+      <DependentUpon>TextBoxClient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TextButtonControl.ascx.cs">
+      <DependentUpon>TextButtonControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TextButtonControl.ascx.designer.cs">
+      <DependentUpon>TextButtonControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfoBox.aspx.cs">
+      <DependentUpon>UserInfoBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserInfoBox.aspx.designer.cs">
+      <DependentUpon>UserInfoBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfoBoxControl.ascx.cs">
+      <DependentUpon>UserInfoBoxControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserInfoBoxControl.ascx.designer.cs">
+      <DependentUpon>UserInfoBoxControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfoBoxDynamic.aspx.cs">
+      <DependentUpon>UserInfoBoxDynamic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserInfoBoxDynamic.aspx.designer.cs">
+      <DependentUpon>UserInfoBoxDynamic.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Class4 {
+namespace Class2Example1 {
     
     
     public partial class TextButtonControl {

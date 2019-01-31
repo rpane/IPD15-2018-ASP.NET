@@ -1,4 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Class2Example1.Default" Trace="true" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Class2Example1.Default"%>
+
+<%@ Register Src="~/UserInfoBoxControl.ascx" TagPrefix="uc1" TagName="UserInfoBoxControl" %>
+
 
 <%
     this.HelloWorldLabel.Text = "This is from the script block";
@@ -13,6 +16,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <uc1:UserInfoBoxControl runat="server" ID="UserInfoBoxControl" UserName="Aziz" UserAge="28" UserCountry="Iran"/>
+            <br /><br />
             <asp:Label ID="HelloWorldLabel" runat="server"></asp:Label>
             <br /><br />
             <asp:TextBox ID="TextInput" runat="server"></asp:TextBox>
