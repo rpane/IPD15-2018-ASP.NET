@@ -67,16 +67,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Form.aspx" />
+    <Content Include="ApplicationObject.aspx" />
+    <Content Include="SessionObject.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form.aspx.cs">
-      <DependentUpon>Form.aspx</DependentUpon>
+    <Compile Include="ApplicationObject.aspx.cs">
+      <DependentUpon>ApplicationObject.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Form.aspx.designer.cs">
-      <DependentUpon>Form.aspx</DependentUpon>
+    <Compile Include="ApplicationObject.aspx.designer.cs">
+      <DependentUpon>ApplicationObject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SessionObject.aspx.cs">
+      <DependentUpon>SessionObject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SessionObject.aspx.designer.cs">
+      <DependentUpon>SessionObject.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Form.aspx.cs" Inherits="Assignment1.Form" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SessionObject.aspx.cs" Inherits="Assignment1.Form" %>
 
 <!DOCTYPE html>
 
