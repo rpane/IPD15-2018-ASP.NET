@@ -13,10 +13,7 @@ namespace Assignment1
         {
 
         }
-        public class Global : System.Web.HttpApplication
-        {
-            public static readonly string TestString = "Testerizer";
-        }
+       
 
         protected void Button1_Click(object sender, EventArgs e)
         {

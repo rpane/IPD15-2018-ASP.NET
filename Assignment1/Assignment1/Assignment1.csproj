@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApplicationObject.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="SessionObject.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -78,6 +79,9 @@
     </Compile>
     <Compile Include="ApplicationObject.aspx.designer.cs">
       <DependentUpon>ApplicationObject.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="SessionObject.aspx.cs">
       <DependentUpon>SessionObject.aspx</DependentUpon>

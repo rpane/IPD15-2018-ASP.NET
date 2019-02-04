@@ -7,7 +7,7 @@
     {
         if (!IsPostBack)
         {
-            if (Session["address"] == null)
+            if (Session["payment"] == null)
             {
                 enterUserInfoPanel.Visible = true;
                 userInfoPanel.Visible = false;
@@ -36,7 +36,7 @@
 
     protected void EnterInfoButton_OnClick(object sender, EventArgs e)
     {
-        Session["firstName"] = Server.HtmlEncode(firstNameTextBox.Text);
+        Session["firstName"] = Server.HtmlEncode(NameOnCard.Text);
         Session["lastName"] = Server.HtmlEncode(lastNameTextBox.Text);
         Session["address"] = Server.HtmlEncode(addressTextBox.Text);
         Session["city"] = Server.HtmlEncode(cityTextBox.Text);
@@ -71,7 +71,7 @@
                 <tr>
                     <td>First name:</td>
                     <td>
-                        <asp:TextBox ID="firstNameTextBox" runat="server" /></td>
+                        <asp:TextBox ID="NameOnCard" runat="server" /></td>
                 </tr>
                 <tr>
                     <td>Last name:</td>
