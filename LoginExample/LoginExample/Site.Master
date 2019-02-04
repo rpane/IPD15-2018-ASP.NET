@@ -50,10 +50,10 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
-                        <li><a runat="server" href="~/Login">Login</a></li>
+                        <li><a runat="server" onserverclick="home_click" href="~/">Home</a></li>
+                        <li><a runat="server" onserverclick="about_click" href="~/">About</a></li>
+                        <li><a runat="server" onserverclick="contact_click" href="~/">Contact</a></li>
+                        <li><a runat="server" onserverclick="logOff_click" id="loginInfo" href="~/Login"></a></li>
                     </ul>
                 </div>
             </div>

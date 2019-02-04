@@ -11,13 +11,14 @@ namespace LoginExample
 {
     public class Global : HttpApplication
     {
+        public static readonly string username = "Admin";
+        public static readonly string password = "123456";
+
         void Application_Start(object sender, EventArgs e)
         {
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-
-
         }
     }
 }

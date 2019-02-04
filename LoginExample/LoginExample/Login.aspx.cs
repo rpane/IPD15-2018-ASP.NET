@@ -16,7 +16,15 @@ namespace LoginExample
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            if(TextBox1.Text == Global.username && TextBox2.Text == Global.password)
+            {
+                Session["Username"] = TextBox1.Text;
+                Session["Password"] = TextBox2.Text;
 
+                Response.Redirect("Default.aspx");
+            }           
         }
+
+      
     }
 }
