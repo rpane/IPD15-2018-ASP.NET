@@ -10,6 +10,8 @@
     <form id="form1" runat="server">
         <div>
         </div>
+        <asp:ListView ID="ListView1" runat="server">
+        </asp:ListView>
     </form>
 </body>
 </html>
