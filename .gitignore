@@ -1,2 +1,4 @@
 db.lock
 .suo
+*.ide-shm
+*.ide-wal
