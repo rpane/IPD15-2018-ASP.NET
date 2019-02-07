@@ -28,5 +28,11 @@ namespace Class8MVC.Controllers
             ViewBag.NumTimes = numTimes;
             return View();
         }
+
+        //[ActionName("AspxTest")]
+        public ActionResult Test()
+        {
+            return View();
+        }
     }
 }
