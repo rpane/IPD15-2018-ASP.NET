@@ -1,0 +1,47 @@
+ASP.NET Test 1
+------------------
+
+Class 1
+========
+
+Advantages of .NET
+	- Object Oriented
+	- Time-Saving
+	- Robust Caching System
+	- Easy Maintenance
+	- Automatic Monitoring
+	- Simplicity
+	- Rich Toolbox
+
+Four Flavors of ASP.NET
+	- Web Forms
+	- MVC
+	- Web Pages
+	- Core
+
+Web Forms(.aspx)
+	- RAD (Rapid Application Development)
+	- Event Model
+	- Server Controls
+	- Rich Controls
+	- Auto preservation of data
+
+MVC
+	Principles
+	- Test-driven dev
+	- Separation of concerns
+	- Inversion of control (IoC)
+	- Dependency injection (DI)
+
+Web Pages (.cshtml .vbhtml)
+	- top to bottom
+
+Core
+	- Run on .NET Core or .NET Framework
+	- Made to provide optimized dev framework
+	- Modular framework distributed as NuGet packages
+	- Cross-platform
+
+Class 2
+========
+
