@@ -4,17 +4,18 @@
     background-size:cover;
 }
 #spacing{
-    margin:50%;
+    margin-top:5%;
+    margin-bottom:5%
 }
 
 
-#dealer {
-    display: block;
+#dealer img{
+   
     margin-left: auto;
     margin-right: auto;
 }
-#player {
-    display: block;
+#player img{
+   
     margin-left: auto;
     margin-right: auto;
 }

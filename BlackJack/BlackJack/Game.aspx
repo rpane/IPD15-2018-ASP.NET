@@ -13,7 +13,7 @@
             <asp:Image ID="Image1" runat="server" Height="249px" Width="168px" />
             <asp:Image ID="Image2" runat="server" Height="249px" Width="168px" />
         </div>
-        <span id="spacing"></span>
+        <div id="spacing"></div>
          <div id="player">
              <asp:Image ID="Image3" runat="server" Height="249px" Width="168px" />
              <asp:Image ID="Image4" runat="server" Height="249px" Width="168px" />
