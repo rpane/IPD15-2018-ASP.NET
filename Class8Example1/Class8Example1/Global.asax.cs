@@ -15,11 +15,12 @@ namespace Class8Example1
         public static int addressesIdCount;
         public static int studentsIdCount;
 
-        public static IList<Classroom> classroomList = new List<Classroom>();
-
-        public static IList<Address> addressList = new List<Address>();
-
+        
+        
+        
         // Create a collection/list of Students
+        public static IList<Classroom> classroomList = new List<Classroom>();
+        public static IList<Address> addressList = new List<Address>();        
         public static IList<Student> studentList = new List<Student>();
        
 

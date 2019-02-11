@@ -3,6 +3,9 @@
 @{
     ViewBag.Title = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var classrooms = MvcApplication.classroomList;
+    var addresses = MvcApplication.addressList;
 }
 
 <h2>Create</h2>
@@ -30,15 +33,26 @@
             @Html.ValidationMessageFor(model => model.Age, "", new { @class = "text-danger" })
         </div>
     </div>
-  
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.StudentClassroom)
+        @Html.DropDownListFor(model => model.StudentClassroom.ClassroomId, new SelectList(classrooms, "ClassroomId","Name"), "Select One")       
     </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.StudentAddress)
+        @Html.DropDownListFor(model => model.StudentAddress.AddressId, new SelectList(addresses, "AddressId","Street"), "Select One")
+    </div>
+
+
+</div>
 
     <div class="form-group">
         <div class="col-md-offset-2 col-md-10">
             <input type="submit" value="Create" class="btn btn-default" />
         </div>
     </div>
-</div>
+
 }
 
 <div>

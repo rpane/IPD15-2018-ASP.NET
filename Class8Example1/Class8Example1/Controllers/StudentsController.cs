@@ -11,7 +11,6 @@ namespace Class8Example1.Controllers
 
     public class StudentsController : Controller
     {
-       
 
         // GET: Students
         public ActionResult Index()
@@ -30,8 +29,7 @@ namespace Class8Example1.Controllers
         [HttpPost]
         public ActionResult Edit(Student std)
         {
-            //Update the students list for the specific student
-           
+            //Update the students list for the specific student           
             var student = MvcApplication.studentList.Where(s => s.StudentId == std.StudentId).FirstOrDefault();
             student.StudentName = std.StudentName;
             student.Age = std.Age;
@@ -50,25 +48,34 @@ namespace Class8Example1.Controllers
 
         // POST: Students/Create    
         [HttpPost]
-        public ActionResult Create(Student stu, Address ad, Classroom cls)
+        public ActionResult Create(Student stu)
         {
             try
             {
-                if (ModelState.IsValid)
-                {
+                var classroom = MvcApplication.classroomList.Where(c => c.ClassroomId == stu.StudentClassroom.ClassroomId).FirstOrDefault();
+                stu.StudentClassroom.Name = classroom.Name;
+                stu.StudentClassroom.Number = classroom.Number;
+
+                var address = MvcApplication.addressList.Where(c => c.AddressId == stu.StudentAddress.AddressId).FirstOrDefault();
+                stu.StudentAddress.Street = address.Street;
+                stu.StudentAddress.City = address.City;
+                stu.StudentAddress.PostalCode = address.PostalCode;
+
+               
                     // TODO: Add insert logic here
-                    stu.StudentId = ++MvcApplication.classroomsIdCount;
+                    stu.StudentId = ++MvcApplication.studentsIdCount;
                     MvcApplication.studentList.Add(stu);
 
+                    /*
                     ad.AddressId = ++MvcApplication.addressesIdCount;
                     MvcApplication.addressList.Add(ad);
 
                     cls.ClassroomId = ++MvcApplication.classroomsIdCount;
-                    MvcApplication.classroomList.Add(cls);
+                    MvcApplication.classroomList.Add(cls);*/
 
                     return RedirectToAction("Index");
-                }                
-                return View();
+                             
+                
 
             }
             catch
