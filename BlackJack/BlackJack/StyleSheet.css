@@ -3,19 +3,23 @@
     background-repeat:no-repeat;
     background-size:cover;
 }
-#spacing{
-    margin-top:5%;
-    margin-bottom:5%
-}
 
-
-#dealer img{
-   
+#dealer {
+    display: block;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
-#player img{
-   
+#player{
+    display:block;
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Cards {
+    display: block;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }

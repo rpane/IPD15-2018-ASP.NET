@@ -9,17 +9,20 @@
 </head>
 <body>
     <form id="form1" runat="server">
+
         <div id="dealer">
-            <asp:Image ID="Image1" runat="server" Height="249px" Width="168px" />
-            <asp:Image ID="Image2" runat="server" Height="249px" Width="168px" />
+            <div class="Cards">
+                <asp:Image ID="Image1" runat="server" Height="249px" Width="168px" />
+                <asp:Image ID="Image2" runat="server" Height="249px" Width="168px" />
+            </div>
         </div>
-        <div id="spacing"></div>
-         <div id="player">
-             <asp:Image ID="Image3" runat="server" Height="249px" Width="168px" />
-             <asp:Image ID="Image4" runat="server" Height="249px" Width="168px" />
-             <asp:Image ID="Image5" runat="server" Height="249px" Width="168px" />
-             <asp:Image ID="Image6" runat="server" Height="249px" Width="168px" />
-        </div>        
+
+        <div id="player">
+            <div class="Cards">
+                <asp:Image ID="Image3" runat="server" Height="249px" Width="168px" />
+                <asp:Image ID="Image4" runat="server" Height="249px" Width="168px" />
+            </div>
+        </div>
     </form>
 </body>
 </html>
