@@ -191,7 +191,6 @@
     <Content Include="Views\Classrooms\Details.cshtml" />
     <Content Include="Views\Classrooms\Delete.cshtml" />
     <Content Include="Views\Classrooms\Create.cshtml" />
-    <Content Include="Views\Students\Create.cshtml" />
     <Content Include="Views\Students\Details.cshtml" />
     <Content Include="Views\Students\Delete.cshtml" />
     <Content Include="Views\Addresses\Index.cshtml" />
@@ -199,6 +198,7 @@
     <Content Include="Views\Addresses\Create.cshtml" />
     <Content Include="Views\Addresses\Edit.cshtml" />
     <Content Include="Views\Addresses\Delete.cshtml" />
+    <Content Include="Views\Students\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

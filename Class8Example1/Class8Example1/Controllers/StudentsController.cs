@@ -1,5 +1,6 @@
 ﻿using Class8Example1.Models;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -7,8 +8,10 @@ using System.Web.Mvc;
 
 namespace Class8Example1.Controllers
 {
+
     public class StudentsController : Controller
     {
+       
 
         // GET: Students
         public ActionResult Index()
@@ -40,13 +43,14 @@ namespace Class8Example1.Controllers
         // GET: Students/Create
         public ActionResult Create()
         {
-            
+            ViewBag.ClassList = MvcApplication.classroomList;
+            ViewBag.AddressList = MvcApplication.addressList;
             return View();
         }
 
         // POST: Students/Create    
         [HttpPost]
-        public ActionResult Create(Student stu)
+        public ActionResult Create(Student stu, Address ad, Classroom cls)
         {
             try
             {
@@ -55,6 +59,12 @@ namespace Class8Example1.Controllers
                     // TODO: Add insert logic here
                     stu.StudentId = ++MvcApplication.classroomsIdCount;
                     MvcApplication.studentList.Add(stu);
+
+                    ad.AddressId = ++MvcApplication.addressesIdCount;
+                    MvcApplication.addressList.Add(ad);
+
+                    cls.ClassroomId = ++MvcApplication.classroomsIdCount;
+                    MvcApplication.classroomList.Add(cls);
 
                     return RedirectToAction("Index");
                 }                
