@@ -16,6 +16,10 @@ namespace ContosoUniversity.Models
         [DataType(DataType.Date)]
         public DateTime EnrollmentDate { get; set; }
 
+        [Required]
+        [EmailAddress]
+        public string EmailAddress { get; set; }
+
         public virtual ICollection<Enrollment> Enrollments { get; set; }
     }
 }
