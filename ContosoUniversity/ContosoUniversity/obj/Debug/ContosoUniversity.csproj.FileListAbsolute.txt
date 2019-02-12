@@ -81,3 +81,7 @@ C:\ASP\Class Work\IPD15-2018-ASP.NET\ContosoUniversity\ContosoUniversity\obj\Deb
 C:\ASP\Class Work\IPD15-2018-ASP.NET\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CopyComplete
 C:\ASP\Class Work\IPD15-2018-ASP.NET\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.dll
 C:\ASP\Class Work\IPD15-2018-ASP.NET\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
+C:\ASP\Class Work\IPD15-2018-ASP.NET\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csprojAssemblyReference.cache
+C:\ASP\Class Work\IPD15-2018-ASP.NET\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources
+C:\ASP\Class Work\IPD15-2018-ASP.NET\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.cache
+C:\ASP\Class Work\IPD15-2018-ASP.NET\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.email.resources

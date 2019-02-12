@@ -21,6 +21,9 @@
         <th>
             @Html.DisplayNameFor(model => model.EnrollmentDate)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmailAddress)
+        </th>
         <th></th>
     </tr>
 
@@ -36,9 +39,12 @@
             @Html.DisplayFor(modelItem => item.EnrollmentDate)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+            @Html.DisplayFor(modelItem => item.EmailAddress)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.id })
         </td>
     </tr>
 }
