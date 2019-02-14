@@ -5,7 +5,6 @@ C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\bin\Debug\netcore
 C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\bin\Debug\netcoreapp2.1\MVCCoreMovie.pdb
 C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\bin\Debug\netcoreapp2.1\MVCCoreMovie.Views.dll
 C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\bin\Debug\netcoreapp2.1\MVCCoreMovie.Views.pdb
-C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\obj\Debug\netcoreapp2.1\MVCCoreMovie.csprojAssemblyReference.cache
 C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\obj\Debug\netcoreapp2.1\MVCCoreMovie.csproj.CoreCompileInputs.cache
 C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\obj\Debug\netcoreapp2.1\MVCCoreMovie.RazorAssemblyInfo.cache
 C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\obj\Debug\netcoreapp2.1\MVCCoreMovie.RazorAssemblyInfo.cs
@@ -30,3 +29,8 @@ C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\obj\Debug\netcore
 C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\obj\Debug\netcoreapp2.1\MVCCoreMovie.dll
 C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\obj\Debug\netcoreapp2.1\MVCCoreMovie.pdb
 C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\obj\Debug\netcoreapp2.1\MVCCoreMovie.csproj.CopyComplete
+C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Create.g.cshtml.cs
+C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Delete.g.cshtml.cs
+C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Details.g.cshtml.cs
+C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Edit.g.cshtml.cs
+C:\ASP\Class Work\IPD15-2018-ASP.NET\MVCCoreMovie\MVCCoreMovie\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Index.g.cshtml.cs
